@@ -1,0 +1,547 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*------------------*/
+
+.header{
+		padding: 34.5px;
+	
+}
+.logotip{
+	width: 25px;
+	height: 10px;
+	margin-right: 30px;
+	margin-top: -12.5px;
+	padding-left: 20px;
+}
+.damnnnn{
+	padding-left: 40px;
+	display: flex;
+
+	justify-content: space-between;
+
+}
+.name{
+
+	flex: 3.5;
+	letter-spacing: 1.5px; 
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.main{
+	margin: 4px 0 0 0 ;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	flex: 1;
+	text-decoration: underline;
+	color:#036FC7;
+;
+}
+.about_us{
+	margin: 4px 0 0 0 ;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	flex: 1;
+	color: #72787D;
+}
+.products{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 4px 0 0 0 ;
+	flex: 1;
+	color: #72787D;
+}
+.process{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 4px 0 0 0 ;
+	flex: 1;
+	color: #72787D;
+
+}
+.safety{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 4px 0 0 0 ;
+	flex: 1;
+	color: #72787D;
+}
+.clients{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 4px 0 0 0 ;
+	flex: 1;
+	color: #72787D;
+
+}
+.contact_us{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 4px 0 0 0 ;
+	flex: 1.3;
+	color: #72787D;
+}
+.download{
+	font-family: Arial;
+	background-color: #212B31;
+	color: white;
+	width: 150px;
+	font-size: 16px;
+	border-radius: 5px;
+	height: 35px;
+	margin-top: -5px;
+}
+.title{
+	padding-top: 110px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 48px;
+	width: 818px;
+	margin: 0 auto;
+}
+.dve{
+	margin-top: 74px;
+	padding-left: 730px;
+}
+.demo{
+	background-color: #212B31;
+	color: white;
+	width: 166px;
+	font-family: Arial;
+	height: 50px;
+	font-size:17px;
+	border-radius: 5px;
+}
+.more{
+	border: 0.5px solid #DADEDF;
+	background-color: white;
+	width: 166px;
+	font-family: Arial;
+	height: 50px;
+	font-size:17px;
+	border-radius: 5px;
+}
+.photo1{
+	margin-top: 95px;
+	text-align: center;
+}
+.photo2{
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+.flex_3{
+	margin-top: 148px;
+	display: flex;
+	justify-content: space-between ;
+	padding-left: 50px;
+}
+.efficiency{
+	text-align: center;
+	flex: 1.2;
+
+}
+.minimize_risks{
+	text-align: center;
+	flex: 1.3;
+}
+.increase_safety{
+	text-align: center;
+	flex: 1.3;
+}
+.flex_3 h3{
+	font-size: 19px;
+	font-family: Arial;
+	color: #212B31;
+	height: 20px;
+}
+.flex_3 p{
+	width: 50%;
+	margin: 0 auto;
+	font-family: Arial;
+	color: #72787D;
+	line-height: 23px;
+
+}
+.flex_3 img{
+	margin-bottom: 25px;
+}
+.chaos{
+	text-align: center;
+	margin-top: 140px;
+}
+.chaos h3{
+	font-family: Arial;
+	font-weight: 400;
+	font-size: 32px;
+	color: #212B31;
+	margin-bottom: 20px;
+}
+.chaos p{
+	margin: 0 auto;
+	font-family: Arial;
+	color: #72787D;
+	font-size: 19px;
+	opacity: 0.6;
+	font-style: normal;
+	line-height: 30px;
+	width: 55%;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+.chaos img{
+	margin-bottom: 80px;
+}
+.sponsors{
+	border-top: black;
+}
+.sponsors1{	
+	display: flex;
+	justify-content: space-between;
+	width: 60%;	
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.sponsors2{
+	display: flex;
+	text-align: center;
+	padding-left: 800px;
+}
+.line1{
+	text-align: center;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+.line2{
+	text-align: center;
+	font-weight: 800;
+	margin-top: 30px;
+}
+.stroi_control{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.stroi_control h3{
+	font-size: 32px;
+	font-family: Arial;
+	color: #212B31;
+	margin-bottom: 25px;
+}
+.stroi_control p{
+	margin: 0 auto;
+	line-height: 30px;
+	font-size: 19px;
+	font-family: Arial;
+	color: #72787D;
+	letter-spacing: 1px;
+	opacity: 0.6;
+	width: 45%;
+	font-style: normal;
+}
+
+.truck{	
+	align-items: stretch;
+	display: inline-flex;
+	
+	padding-left: 100px;
+
+}
+.follow{
+	margin-top: 50px;
+	width: 50%;
+	padding-left: 300px;
+}
+.truck h3{
+	width: 90%;
+	font-size: 19px;
+	font-family: Arial;
+	color:  #212B31;
+	margin-bottom: 20px;
+}
+.truck p{
+	color: #72787D;
+	font-family: Arial;
+	width: 87%;
+	line-height: 23px;
+	letter-spacing: 1px;
+}
+
+.men{
+	align-items: stretch;
+	display: inline-flex;
+	justify-content: center;
+	padding-left: 200px;
+	padding-bottom: 100px;
+}
+.optimize{
+	margin-top: 80px;
+	width: 50%;
+	margin-left: 100px;
+}
+.optimize h3{
+	width: 70%;
+	font-size: 19px;
+	font-family: Arial;
+	color:  #212B31;
+	margin-bottom: 20px;
+	
+}
+.optimize p{
+
+	color: #72787D;
+	font-family: Arial;
+	width: 60%;
+	line-height: 23px;
+	letter-spacing: 1px;
+}
+
+.wrapper{
+	background-color: #212B31;
+	height: auto;
+}
+.flex_4{
+	display: flex;
+}
+.sozdan h2{
+	color: white;
+	font-family: Arial;
+	font-size: 34px;
+	font-weight: 300;
+	margin-top: 150px;
+	margin-bottom: 50px;
+	letter-spacing: 1px;
+}
+.sozdan {
+	padding-left: 150px;
+}
+.analytics{
+	margin-top: 150px;
+}
+.spisok3{
+	padding-left: 40px;
+}
+.spisok3 h3{
+	color: white;
+	font-family: Arial;
+	font-size: 16px;
+	letter-spacing: 0.6px;
+	margin-bottom:20px ;
+	width: 40%;
+	line-height: 22px;
+}
+.spisok3 p{
+	color:  white;
+	font-family: Arial;
+	font-size: 13px;
+	opacity: 0.7;
+	margin-bottom:  30px;
+	width: 43%;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+}
+
+ol{
+	color: white;
+	font-family: Arial;	
+	font-size: 16px;	
+}
+
+.knopki2{
+	margin-top: 20px;
+	padding-left: 150px;
+	padding-bottom: 100px;
+}
+.demo2{
+	width: 140px;
+	font-family: Arial;
+	font-size: 	16px;
+	height: 45px;
+	border-radius: 5px;
+	margin-right: 10px;
+	color: #212B31;
+}
+
+.details2{
+	font-size: 16px;
+	font-family: Arial;
+	width: 140px;
+	height: 45px;
+	border-radius: 5px;
+	background-color: #212B31;
+	border: 1px solid white;
+	color: white;
+}
+
+.flex_5{
+	display: flex;
+	text-align: center;
+	padding-bottom: 160px;
+}
+
+.flex_5 h2{
+	font-weight: 400;
+	font-size: 18px;
+	font-family: Arial;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.flex_5 p{
+	width: 55%;
+	margin: 0 auto;
+	font-weight: 400;
+	font-size: 14px;
+	font-family: Arial;
+	color: white;
+	line-height: 20px;
+	opacity: 0.8;
+}
+
+.box10{
+	padding-bottom: 270px;
+	margin-top: 160px;
+	background: url('../IMG/Rectangle (3).png') no-repeat;
+	margin-left: 400px;
+
+}
+.box10 h2{
+	font-family: Arial;
+	font-weight: 100;
+	font-size: 48px;
+	text-align: center;
+	padding-right: 400px;
+	line-height: 70px;
+	padding-top: 115px;
+}
+.knopki3{
+	margin-top: 50px;
+	padding-left: 350px;
+}
+.demo10{
+	background-color: #212B31;
+	color: white;
+	width: 140px;
+	height: 50px;
+	border-radius: 4px;
+	font-family: Arial;
+	font-size: 17px;
+	margin-right: 8px;
+}
+.connect_us{
+	border: 1px solid #72787D;
+	width: 200px;
+	height: 50px;
+	border-radius: 4px;
+	font-family: Arial;
+	font-size: 17px;
+	color: #212B31;
+}
+.flex_6{
+	display: flex;
+	justify-content: space-between;
+	width: 78.5%;
+	padding-left: 400px;
+	padding-bottom: 130px;
+}
+.flex_6 h2{
+	font-family: Arial;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.flex_6 h3{
+	font-family: Arial;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+
+}
+
+.adress{
+	margin-bottom: 20px;
+}
+.nomer{
+	margin-bottom: 20px;
+}
+
+.linia{
+	padding-left: 400px;
+}
+.footer_flex{
+	padding-left: 400px;
+	display: flex;
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+.copyright{
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+
+	
+}
+.politics{
+	margin-left: 500px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	
+}
